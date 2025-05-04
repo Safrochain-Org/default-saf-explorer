@@ -43,8 +43,8 @@ const validAddress = computed(() => {
 });
 
 const faucetUrl = computed(() => {
-    return `https://faucet.ping.pub/${chainStore.current?.chainName}`;
-    // return `http://localhost:3000/${chainStore.current?.chainName}`;
+    // return `https://faucet.ping.pub/${chainStore.current?.chainName}`;
+    return `https://faucet.cardanotask.com/`;
 });
 
 
